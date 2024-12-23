@@ -1,3 +1,30 @@
+
+## Analysis Report
+### Key Findings:
+1. The most popular dish is {popular_dishes.iloc[0]['Dish_Name']} with {popular_dishes.iloc[0]['Count']} orders.
+2. There is a positive correlation between the number of cooking sessions and total orders.
+3. Users aged {age_location_meal_relation['Age'].iloc[0]} from {age_location_meal_relation['Location'].iloc[0]} prefer {age_location_meal_relation['Favorite_Meal'].iloc[0]} and placed the highest number of orders.
+4. Orders are highest during {time_order_relation['Time_of_Day'].iloc[time_order_relation['total_orders'].idxmax()]}. 
+5. Higher session ratings are associated with increased orders.
+
+### Recommendations:
+- Focus on promoting the top dishes to increase user engagement.
+- Target marketing efforts towards locations and age groups with higher order activity.
+- Encourage users to cook more by providing incentives, as sessions correlate with orders.
+- Optimize platform usage during peak times (e.g., {time_order_relation['Time_of_Day'].iloc[time_order_relation['total_orders'].idxmax()]}).
+- Improve session experiences to achieve higher ratings and more orders.
+
+### Visualizations:
+- Top 10 Popular Dishes
+- Cooking Sessions vs Orders
+- Demographic Analysis: Favorite Meals by Location and Age
+- Time of Day vs Total Orders
+- Session Ratings vs Total Orders
+"""
+
+
+
+
 # Predictive Analysis Report
 
 ## Objective
