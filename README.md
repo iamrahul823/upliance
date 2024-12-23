@@ -7,10 +7,10 @@
 The goal of this analysis was to predict the number of total orders placed by users based on their activity and demographic features, using various regression models.
 
 ## Key Findings:
-1. The most popular dish is `Pasta Alfredo` with 152 orders.
+1. The most popular dish is 'Spaghetti' with '9' orders.
 2. There is a positive correlation between the number of cooking sessions and total orders.
-3. Users aged 32 from `New York` prefer `Chicken Tikka` and placed the highest number of orders.
-4. Orders are highest during `Dinner` time.
+3. Users aged 28 from New York prefer Dinner and placed the highest number of orders.
+4. Orders are highest during Night time.
 5. Higher session ratings are associated with increased orders.
 
 ## Key Models and Results
