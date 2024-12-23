@@ -41,11 +41,13 @@ The most influential features in predicting total orders are:
 2. **avg_rating**: Importance 0.1976
 3. **avg_duration**: Importance 0.0931
 
-## Recommendations
-1. Focus on increasing user engagement by boosting cooking sessions, as it is the most predictive factor for orders.
-2. Optimize platform features to cater to users with higher average session ratings.
-3. Target marketing efforts towards dinner time to maximize order volumes.
-4. Use Random Forest predictions for further marketing insights, given its high performance and feature interpretability.
+## Recommendations:
+- Focus on promoting the top dishes to increase user engagement.
+- Target marketing efforts towards locations and age groups with higher order activity.
+- Encourage users to cook more by providing incentives, as sessions correlate with orders.
+- Optimize platform usage during peak times (e.g., {time_order_relation['Time_of_Day'].iloc[time_order_relation['total_orders'].idxmax()]}).
+- Improve session experiences to achieve higher ratings and more orders.
+
 
 
 ### Visualizations:
